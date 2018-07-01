@@ -8,7 +8,7 @@ metadata:
 spec:
   hosts:
   - podinfo
-  - podinfo.istio-test.westeurope.cloudapp.azure.com
+  - istio-test.westeurope.cloudapp.azure.com
   gateways:
   - mesh
   - podinfo-gateway
