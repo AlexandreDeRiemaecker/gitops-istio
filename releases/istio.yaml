@@ -28,7 +28,7 @@ spec:
     sidecarInjectorWebhook:
       enabled: true
     galley:
-      enabled: false
+      enabled: true
     mixer:
       enabled: true
     pilot:
@@ -37,12 +37,12 @@ spec:
       enabled: true
     # addons configuration
     grafana:
-      enabled: false
+      enabled: true
     prometheus:
       enabled: true
     servicegraph:
-      enabled: false
+      enabled: true
     tracing:
-      enabled: false
+      enabled: true
       jaeger:
-        enabled: false
+        enabled: true
