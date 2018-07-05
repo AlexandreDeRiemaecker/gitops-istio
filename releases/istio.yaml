@@ -35,6 +35,7 @@ spec:
       enabled: true
     security:
       enabled: true
+    
     # addons configuration
     grafana:
       enabled: true
